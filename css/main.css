@@ -1,0 +1,348 @@
+body{
+	margin:0px;
+background: black;
+}
+@font-face {
+  font-family: "StarWars";
+  src: url('/./dotslash/cssstarjedi/Starjedi.ttf');
+}
+.cc{
+	background: url(background.png)no-repeat center center;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 650px;
+}
+.icon{background-color: inherit;
+display: block;
+position: absolute;
+}
+
+.icon a{
+	float: right;
+  padding: 5px;
+  border-style: solid ,yellow;
+  border-radius: 100%;
+  font-size: 30px;
+}
+.icon a:hover{
+  transform:scale(1.3);
+}
+
+
+
+.dwn a{
+	position: absolute;
+	
+	bottom: 0;
+	
+	
+  }
+#shd{
+	float: left;
+}
+
+
+
+@media screen and (max-width: 1000px){
+	.cc{
+		background: url(c1mbck.jpg) no-repeat center; 
+		-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+	
+		width: 100%;
+		height:20%;
+	}
+
+.dwn{
+	display: block;
+}}
+
+	.cd{
+		text-align: center;
+		background: rgb(1, 3, 2);
+	  font-family: sans-serif;
+	  font-weight: 100;
+	}
+	
+	h1{
+	  color: #396;
+	  font-weight: 100;
+	  font-size: 40px;
+	  margin: 40px 0px 20px;
+	}
+	
+	#clockdiv{
+		font-family: sans-serif;
+		color: #fff;
+		display: inline-block;
+		font-weight: 100;
+		text-align: center;
+		font-size: 30px;
+	}
+	
+	#clockdiv > div{
+		padding: 10px;
+		border-radius: 3px;
+		background: rgb(1, 5, 3);
+		display: inline-block;
+	}
+	
+	#clockdiv div > span{
+		padding: 15px;
+		border-radius: 3px;
+		background: rgba(240, 241, 243, 0.603);
+		display: inline-block;
+	}
+	
+	.smalltext{
+		padding-top: 5px;
+		font-size: 16px;
+	}
+
+
+	.c2 a img:hover {
+		transition-duration:  25s;
+		-webkit-transform: rotateX(9720deg); /* Safari */
+			transform: rotateX(9730deg);;
+	}
+	.c22{
+
+		box-shadow: rgb(1, 3, 1);
+		font-style: italic;
+		font-style:bold;
+	}
+
+	.c22 .o{
+		display: inline-grid;
+		width: 600px;
+		margin: 20px;
+
+		height: 300px;
+		border-radius: 5px;
+		
+	}
+	#o1{
+		background: url(o1.jpg) no-repeat center center; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	#o2{
+		background: url(o2.jpg) no-repeat center center; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	c22 a:hover{
+		transition-duration:  2s;
+		transform: scale(5)
+		
+	}
+	.c3{
+		color: #fff;
+			
+		background-color: rgba(147, 201, 223, 0.329);
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+	.c3 p{
+		text-align: justify;
+
+	}
+		
+	.dprt{
+		display: inline-grid;
+		border-radius: 10px;
+		 width: 600px;
+		 height: 300px;
+	   margin: 20px;
+	   text-align: center;
+	   background-color:yellow;
+	   transition: transform .2s;  
+	}
+	.dprt img{
+		position: relative;
+		/* top: 82px;
+		left: 320px; */
+		padding-left: 320px;
+		padding-top:82px;
+		padding-right:50px; 
+		padding-bottom:70px;  
+
+	}
+	#cse{
+		background: url(cse.jpg) no-repeat center center; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	#mech{
+		background: url(mech.jpg) no-repeat center center; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	#ec{
+		background: url(ec.jpg) no-repeat center center; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+	}
+	#ce{
+		background: url(ce.jpg) no-repeat center center; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+	}
+	
+
+
+
+ 
+ .c4{
+  background: rgba(255, 255, 254, 0.774);
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(37, 7, 7);
+}
+  
+  #ma {
+	width:200px;
+	height: 200px;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+	border-style: solid;
+	float:right;
+	right:100px;
+  }
+  
+  .row {
+	display :block;
+  
+  }
+  .row .m, .row .cl,.row .cr{
+	display:inline-grid;
+	margin-right: 100px;
+	margin-left: 100px;
+  
+  }
+  .ic{background-color: rgb(3, 2, 2);
+height: 30px;}
+  
+  .ic a{
+	padding: 5px;
+	border-style: solid ,yellow;
+	border-radius: 100%;
+	font-size: 20px;
+	border-color: black;
+  }
+  .ic a:hover{
+	transform:scale(1.8);
+  }
+  .dd{
+		display: inline;
+		font-family: starwars;
+background: #bbb;
+		font-size: 25px;
+		color: rgb(15, 2, 2);
+		/* height: 900px; */
+	}
+	.dd a{
+		transition: transform .2s; 
+	
+	}
+		
+	.dd a:hover{
+	cursor:help;
+	color: #396;
+	transform: scale(1.2);
+	
+	}
+	
+
+  .slideshow-container {
+  
+	position: relative;
+	margin: 0px;
+	width: 100%;
+  
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+	  display: block;
+  }
+  
+   .poster a img {
+  display: grid;
+  margin: 0px;
+  position: relative;
+  width: 100%;
+  margin:0px;
+  
+  
+	}
+  
+  
+  /* Caption text */
+  #dot_c {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+  }
+  
+  
+  /* The dots/bullets/indicators */
+  .dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+	background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+  }
+  
+  @keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+  }
+	
+	.dd div{
+		display: inline-block;
+		
+	}

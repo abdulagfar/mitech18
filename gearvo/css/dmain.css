@@ -1,0 +1,204 @@
+@font-face {
+  font-family: "StarWars";
+  src: url('font/Critical-Mass-LDR.ttf');
+}
+
+.dlogo{
+  font-family: "StarWars";
+
+}
+body{
+  margin: 0%; 
+  background-color: rgb(107, 107, 221)    ;
+
+  background: url(m1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "StarWars";
+}
+
+
+.content{
+  margin-left:3%;
+  margin-right:5%;
+  position: absolute}
+
+  .c{
+    width: 100%;
+  }
+.fixed{
+
+    padding: 10px;
+    height: 25px;  
+}
+
+.menu{
+  color: aliceblue;
+}
+.menu div{
+ display: inline; 
+}
+
+.dlogo{
+  color: rgba(204, 133, 0, 0.795);
+  text-shadow: 1px 1px gray;
+  float: left;
+  font-size: 35px;
+
+
+}
+
+.link a{
+  color: rgba(204, 133, 0, 0.795);
+
+  border-left: bold;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 12px;
+}
+.link{
+  float: right;
+  padding: 10px;
+
+}
+
+.link a:hover{
+  color: aliceblue;
+  text-shadow: 1px 1px gray;
+
+ 
+  text-shadow: 6px;
+  
+ }
+
+.link button:hover{
+background: blue;
+}
+.c2 h1{
+  color:rgba(204, 133, 0, 0.795);
+  text-shadow:1px 1px white;
+}
+.events{
+  align-items: center;
+}
+ .events div {
+   display: inline-grid;
+   border-radius: 10px;
+    width: 300px;
+    height: 200px;
+  margin: 20px;
+  text-align: center;
+  background-color:yellow;
+  transition: transform .2s; 
+ }
+ .events a :hover{
+  transform: scale(1.2);
+  cursor: nesw-resize;
+ }
+ .events a{
+  text-decoration: none;
+  
+ }
+ .events a div p{
+   font-size:35px;
+  font: bold;
+  color:rgb(255, 255, 255);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow:2px 2px rgb(124, 124, 124);
+ }
+ .sample{
+  display: none;
+
+}
+ @media screen and (max-width: 1000px){
+.sample{
+  display: block;
+
+}
+  .content{
+    background: url(m1.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+ }
+
+ .c2{
+   background-color:rgba(255, 255, 255, 0.466); 
+   box-shadow: rgb(10, 250, 22);
+ }
+
+ .c3{
+   background-color: rgba(0, 12, 1, 0.548);
+   font-family: Arial, Helvetica, sans-serif;
+   color: aliceblue;
+ }
+
+ .c3 p,.c3 h3{
+   text-align: center;
+  margin-left:20px;
+  margin-right:20px;
+ }
+
+
+ .c4{
+  background: rgba(255, 255, 254, 0.774);
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(37, 7, 7);
+}
+
+#ma {
+  width:200px;
+  height: 200px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  border-style: solid;
+  float:right;
+  right:100px;
+}
+
+.row {
+  display :block;
+
+}
+.row .m, .row .cl,.row .cr{
+  display:inline-grid;
+  margin-right: 100px;
+  margin-left: 100px;
+
+}
+.icon{background-color: rgb(3, 3, 3);
+height: 30px;}
+
+.icon a{
+  padding: 5px;
+  border-style: solid ,yellow;
+  border-radius: 100%;
+  font-size: 20px;
+  border-color: black;
+}
+.icon a:hover{
+  transform:scale(1.3);
+}
+
+.dd{
+  background-color: wheat;
+  font-family: starwars;
+  font-size: 20px;
+  color: rgb(15, 2, 2);
+}
+.dd a{
+  transition: transform .2s; 
+
+}
+  
+.dd a:hover{
+cursor:help;
+color: #396;
+transform: scale(1.2);
+
+}
+

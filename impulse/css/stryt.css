@@ -1,0 +1,51 @@
+.stryt{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.stryt .stryt-contant .column{
+    background-color:rgba(255, 255, 255, 0.911);
+    width:20%;
+    border-radius:6px;
+    display: inline-block;
+    margin: 1%;
+    color: rgb(6, 7, 7);
+    text-align: center;
+}
+
+.stryt .stryt-contant{
+    display:block;
+    padding: 16px;
+}
+
+.column {
+
+    
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.closebn{
+    float: right;
+    font-size: 50px;
+  
+}
+.card .container h2{
+    font-size: 18px;
+}

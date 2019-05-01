@@ -1,0 +1,108 @@
+.img{
+    width: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.445);
+
+}
+body{background-color: white;
+    background: url(shd.jpg) center center;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+color: black;}
+.shd{
+    position: relative;
+}
+.tshd{
+    width: 100%;
+    float: left;
+    left:20px;
+    margin: 20px;
+}
+
+.gearvo{
+    position: relative;
+    background-color: rgba(255, 145, 0, 0.541);
+    height: 80px;
+    width:90%; 
+    border-radius:10px; 
+}
+.stru{
+    position: relative;
+    background-color: rgba(240, 3, 3, 0.459);
+    height: 80px;
+    width:80%; 
+    border-radius:10px; 
+}
+.impulse{
+    position: relative;
+    background-color: rgba(0, 162, 255, 0.589);
+    height: 80px;
+    width:90%; 
+    border-radius:10px; 
+}
+.dot{
+    position: relative;
+    background-color: rgba(9, 255, 0, 0.63);
+    height: 80px;
+    width:90%; 
+    border-radius:10px; 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.d2{
+    
+    background-color: yellow;
+}
+.tshd a:hover{
+    background-color: rgba(0, 255, 255, 0.527);
+}
+
+
+.BTN{
+    position: FIXED;
+}
+
+
+
+
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: rgba(0, 0, 0, 0.014);
+
+    color: rgb(3, 2, 2);
+    
+    border: 5px;
+    margin: 2px;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 150px;
+    
+}
+
+.tablink:hover {
+    background-color: rgba(100, 3, 3, 0.527);
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+

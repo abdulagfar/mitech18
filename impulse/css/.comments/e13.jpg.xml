@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment version="3.0">
+  <caption>matasse di cavo elettrico</caption>
+  <note/>
+  <place/>
+  <categories>
+    <category value="matassa"/>
+    <category value="cavo"/>
+    <category value="filo"/>
+    <category value="elettrico"/>
+    <category value="elettricit"/>
+    <category value="conduttore"/>
+    <category value="collegamento"/>
+    <category value="colorato"/>
+  </categories>
+</comment>
